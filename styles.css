@@ -1,0 +1,77 @@
+body { 
+    background-size: cover;
+    background-image: linear-gradient(rgb(141, 229, 244), rgb(255, 123, 0),rgb(171, 227, 254)); 
+}
+.Box {
+width: 250px;
+height: 665px;
+border: 14px solid rgb(12, 9, 9);
+background-color: black;
+border-radius: 60px;
+margin-left: 31em;
+
+
+}
+
+.Redbox { 
+    width: 210px;
+    height: 206px;
+    border: 2px solid rgb(51, 4, 4);
+    background: radial-gradient(closest-side, #8b0404, #e2430e, #320202);
+    box-shadow: 0px 1px 5px rgb(89, 15, 15); 
+}
+.redcircle {
+    width: 204px;
+    height: 204px;
+    border: 1px solid rgb(89, 9, 9);
+    border-radius: 100px;
+    background: radial-gradient(closest-side, #ff5602, #d13b09, #a01c1c);
+    box-shadow: 0px 1px 5px rgb(233, 15, 15);  
+}
+.Orangebox { 
+    width: 207px;
+    height: 206px;
+    border: 2px solid rgb(54, 31, 6);
+    background: radial-gradient(closest-side, #8b5c04, #e2d40e, #322402);
+    box-shadow: 0px 1px 5px rgb(89, 15, 15); 
+}
+.orangecircle {
+    width: 204px;
+    height: 204px;
+    border: 1px solid rgb(187, 147, 14);
+    border-radius: 100px;
+    background: radial-gradient(closest-side, #fecc18, #d79702, #cb7607);
+    box-shadow: 0px 1px 5px rgb(233, 139, 8);    
+}
+.Greenbox { 
+    width: 207px;
+    height: 206px;
+    border: 2px solid rgb(2, 56, 12);
+    background: radial-gradient(closest-side, #174f01, #0a5706, #033c10);
+    box-shadow: 0px 1px 5px rgb(18, 103, 3); 
+}
+.greencircle {
+    width: 204px;
+    height: 204px;
+    border: 2px solid rgb(26, 110, 0);
+    border-radius: 100px;
+    background: radial-gradient(closest-side, #00c907, #13ae02, #156e01);
+    box-shadow: 0px 1px 5px rgb(12, 121, 3);    
+}
+.container {
+    width: 210px;
+    height: 630px;
+    border: 20px solid rgb(20, 18, 18);
+    border-radius: 40px;
+    box-shadow: 0px 1px 5px rgb(9, 8, 8);
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;    
+}
+.Frame {
+    width: 80px;
+    height: 900px;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, black, rgb(66, 62, 62), rgb(8, 0, 0));
+    margin-left: 37em;
+}
